@@ -1,0 +1,16 @@
+.outer-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr; 
+  grid-gap: 20px;}
+
+.sidebar {
+  width: 100%; 
+  background-color: #e88200; 
+  padding: 20px; 
+}
+
+.content{
+  display: table-cell;
+  width: 85%;
+  vertical-align: top;
+}
